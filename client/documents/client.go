@@ -4,12 +4,13 @@ package documents
 
 import (
 	context "context"
-	pogodocgoclient "github.com/Pogodoc/pogodoc-go/client"
-	core "github.com/Pogodoc/pogodoc-go/client/core"
-	internal "github.com/Pogodoc/pogodoc-go/client/internal"
-	option "github.com/Pogodoc/pogodoc-go/client/option"
 	http "net/http"
-pogodoc-go-testpogodoc-go-testpogodoc-go-test)
+
+	pogodocgoclient "github.com/Pogodoc/pogodoc-go-test/client"
+	core "github.com/Pogodoc/pogodoc-go-test/client/core"
+	internal "github.com/Pogodoc/pogodoc-go-test/client/internal"
+	option "github.com/Pogodoc/pogodoc-go-test/client/option"
+)
 
 type Client struct {
 	baseURL string
