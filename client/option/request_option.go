@@ -3,10 +3,9 @@
 package option
 
 import (
+	core "github.com/Pogodoc/pogodoc-go-test/client/core"
 	http "net/http"
 	url "net/url"
-
-	core "github.com/Pogodoc/pogodoc-go-test/client/core"
 )
 
 // RequestOption adapts the behavior of an individual request.

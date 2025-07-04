@@ -3,13 +3,12 @@
 package client
 
 import (
-	http "net/http"
-
 	core "github.com/Pogodoc/pogodoc-go-test/client/core"
 	documents "github.com/Pogodoc/pogodoc-go-test/client/documents"
 	internal "github.com/Pogodoc/pogodoc-go-test/client/internal"
 	option "github.com/Pogodoc/pogodoc-go-test/client/option"
 	templates "github.com/Pogodoc/pogodoc-go-test/client/templates"
+	http "net/http"
 )
 
 type Client struct {

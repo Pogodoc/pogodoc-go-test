@@ -5,7 +5,6 @@ package api
 import (
 	json "encoding/json"
 	fmt "fmt"
-
 	internal "github.com/Pogodoc/pogodoc-go-test/client/internal"
 )
 
